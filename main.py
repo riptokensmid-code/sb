@@ -1,8 +1,7 @@
 import discord
 from discord.ext import commands
 
-intents = discord.Intents.default()
-intents.message_content = True  # Required to read message content
+
 bot = commands.Bot(command_prefix='.', intents=intents, self_bot=False)
 
 # Dictionary to store user-specific emoji preferences
@@ -115,4 +114,4 @@ async def stream(ctx, *, text: str = "m"):
     await ctx.send(f'Now streaming "{text}"!')
 
 # Run the bot
-bot.run('MTQ2NzA4MTI1MzIyMzE0MTQwNg.GK9P4j.l7YoqmTa3QEFArQhpEOthaCiFeQfpkNDtvFkok')
+bot.run('MTQ2NzA4MTI1MzIyMzE0MTQwNg.Gs1rzE.hT0E5TD3JIyRMgud1XXOAMsxPH3s1wKYIpPZcE')
