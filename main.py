@@ -115,4 +115,4 @@ async def stream(ctx, *, text: str = "m"):
     await ctx.send(f'Now streaming "{text}"!')
 
 # Run the bot
-bot.run('"MTQ2NzA4MTI1MzIyMzE0MTQwNg.GRFaHV.IkKG-j7cyBrdxjpEXceFbga3F_qD59WyXmGs6U"E')
+bot.run('MTQ2NzA4MTI1MzIyMzE0MTQwNg.GK9P4j.l7YoqmTa3QEFArQhpEOthaCiFeQfpkNDtvFkok')
